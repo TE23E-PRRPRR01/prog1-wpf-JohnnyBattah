@@ -47,5 +47,5 @@
         "angelo-breuer.clock": true,
         "ms-dotnettools.vscodeintellicode-csharp": false,
         "GitHub.copilot": false
-  },
+  }
 }
