@@ -1,0 +1,20 @@
+﻿<Window x:Class="EventApp.MainWindow"
+
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:EventApp"
+        mc:Ignorable="d"
+        Title="Min första app" Height="400" Width="300"
+        Background="#EEE">
+<StackPanel Margin="5">
+    <Label Margin="5">Ange en text</Label>
+    <TextBox Name="tbxText" Margin="5" Height="50"/>
+    <Button Click="KlickOK" Background="green" Margin="5" Padding="5">OK</Button>
+    <Button Click="KlickAvbryt" Background="red" Margin="5" Padding="5">Avbryt</Button>
+    <TextBox Name="tbxResultat" Margin="5" Height="50" />
+    <Button Click="KlickRensa">Rensa</Button>
+    <Button Click="KlickAvsluta">Avsluta</Button>
+</StackPanel>
+</Window>
