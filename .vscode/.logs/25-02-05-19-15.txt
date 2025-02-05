@@ -1,0 +1,10 @@
+25-02-05 19:15 Session started
+----------------------------------------
+19:15:58 Document switched to: c:\Users\johnny.battah\github-classroom\prog1-wpf-JohnnyBattah\EventApp\MainWindow.xaml
+----------------------------------------
+19:16:04 Document switched to: c:\Users\johnny.battah\github-classroom\prog1-wpf-JohnnyBattah\EventApp\MainWindow.xaml
+----------------------------------------
+19:23:27 Document switched to: c:\Users\johnny.battah\github-classroom\prog1-wpf-JohnnyBattah\EventApp_Uppg2
+----------------------------------------
+19:23:38 Document switched to: c:\Users\johnny.battah\github-classroom\prog1-wpf-JohnnyBattah\EventApp\MainWindow.xaml
+----------------------------------------

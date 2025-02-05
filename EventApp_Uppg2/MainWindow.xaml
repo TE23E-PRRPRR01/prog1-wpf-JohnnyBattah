@@ -1,0 +1,14 @@
+﻿<Window x:Class="EventApp_Uppg2.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:EventApp_Uppg2"
+        mc:Ignorable="d"
+        Title="Dölj och visa text" Height="200" Width="350">
+    <StackPanel>
+        <Label Name="lblText" FontSize="20" Margin="10">Hej världen</Label>
+        <Button Margin="10" Click="KlickaGöm">Göm texten</Button>
+        <Button Margin="10" Click="KlickaVisa">Visa texten texten</Button>
+    </StackPanel>
+</Window>
