@@ -1,0 +1,24 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.2.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AreaApp", "AreaApp\AreaApp.csproj", "{1E710618-0F59-A1AA-E236-ED0E62B00C8B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1E710618-0F59-A1AA-E236-ED0E62B00C8B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1E710618-0F59-A1AA-E236-ED0E62B00C8B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1E710618-0F59-A1AA-E236-ED0E62B00C8B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1E710618-0F59-A1AA-E236-ED0E62B00C8B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0F80F59C-1523-4562-9AA0-F5A9C89A9BA5}
+	EndGlobalSection
+EndGlobal

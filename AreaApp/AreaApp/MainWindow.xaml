@@ -1,0 +1,28 @@
+﻿<Window x:Class="AreaApp.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:AreaApp"
+        mc:Ignorable="d"
+        Title="Area App" Height="400" Width="350" Background="LightGray">
+    <StackPanel Margin="20">
+        <Label FontSize="16">Ange bredd:</Label>
+        <TextBox Name="txbBredd"></TextBox>
+
+        <Label FontSize="16">Ange höjd:</Label>
+        <TextBox Name="txbHojd"></TextBox>  
+
+        <Button Click="KlickRäknaUt" Background="LightBlue" Margin="10 10 0 10"  FontSize="14" FontFamily="Arial" FontWeight="Bold" Padding="10 5" >
+            Räkna ut
+        </Button>
+
+        <Label FontSize="16" Foreground="red">Area: </Label>
+        <TextBox Name="txbArea" IsReadOnly="True"></TextBox>
+
+        <Label FontSize="16">Rensa:</Label>
+         <Button Click="KlickRensa" Background="LightBlue" Margin="10 10 0 10"  FontSize="14" FontFamily="Arial" FontWeight="Bold" Padding="10 5" >
+            Rensa
+        </Button>
+    </StackPanel>
+</Window>
