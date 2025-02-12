@@ -1,0 +1,6 @@
+25-02-12 13:44 Session started
+----------------------------------------
+13:44:53 Document switched to: c:\Users\johnny.battah\github-classroom\prog1-wpf-JohnnyBattah\AreaApp\AreaApp\MainWindow.xaml
+----------------------------------------
+13:45:07 Document switched to: c:\Users\johnny.battah\github-classroom\prog1-wpf-JohnnyBattah\AreaApp\AreaApp\MainWindow.xaml
+----------------------------------------
