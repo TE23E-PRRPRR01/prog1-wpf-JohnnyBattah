@@ -1,0 +1,18 @@
+25-03-03 13:37 Session started
+----------------------------------------
+13:42:23 Document switched to: c:\Users\johnny.battah\github-classroom\prog1-wpf-JohnnyBattah\App.xaml
+----------------------------------------
+13:42:50 Document switched to: c:\Users\johnny.battah\github-classroom\prog1-wpf-JohnnyBattah\App.xaml.cs
+----------------------------------------
+13:42:53 Document switched to: c:\Users\johnny.battah\github-classroom\prog1-wpf-JohnnyBattah\AssemblyInfo.cs
+----------------------------------------
+13:42:56 Document switched to: c:\Users\johnny.battah\github-classroom\prog1-wpf-JohnnyBattah\MainWindow.xaml
+----------------------------------------
+13:42:59 Document switched to: c:\Users\johnny.battah\github-classroom\prog1-wpf-JohnnyBattah\MainWindow.xaml.cs
+----------------------------------------
+13:43:03 Document switched to: c:\Users\johnny.battah\github-classroom\prog1-wpf-JohnnyBattah\prog1-wpf-JohnnyBattah.csproj
+----------------------------------------
+13:43:10 Document switched to: c:\Users\johnny.battah\github-classroom\prog1-wpf-JohnnyBattah\global.json
+----------------------------------------
+13:43:27 Document switched to: c:\Users\johnny.battah\github-classroom\prog1-wpf-JohnnyBattah\prog1-wpf-JohnnyBattah.csproj
+----------------------------------------
