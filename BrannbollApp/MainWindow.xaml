@@ -7,7 +7,9 @@
         mc:Ignorable="d"
         Title="BrännbollApp" 
         Height="450" Width="800"
-        SizeToContent="WidthAndHeight">
+        SizeToContent="WidthAndHeight"
+        MinWidth="800 " MinHeight="450"
+        MaxHeight="600" MaxWidth="1000">
     <StackPanel Margin="10">
         <Label FontSize="30">Brännbollsräknaren</Label>
         <StackPanel Orientation="Horizontal">
@@ -27,5 +29,6 @@
             <Label>Historik</Label>
             <TextBox IsReadOnly="True" Width="450" Height="200" Name="txbHistorik"></TextBox>
         </StackPanel>
+        <Button Click="KlickSpara" Width="100" Margin="10" Padding="5">Spara</Button>
     </StackPanel>
 </Window>

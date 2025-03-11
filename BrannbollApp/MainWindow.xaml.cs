@@ -8,6 +8,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using System.IO;
 
 namespace BrannbollApp;
 
@@ -38,24 +39,38 @@ public partial class MainWindow : Window
         DateTime nu = DateTime.Now;
 
         // Skriv ut i historiken
-        txbHistorik.Text += $"{nu.ToString("HH:mm:ss")}: Lag inne +5, totalt: {poängInne} \n";
+        txbHistorik.Text = $"{nu.ToString("HH:mm:ss")}: Lag inne +5, totalt: {poängInne} \n" + txbHistorik.Text;
     }
     private void KlickBränning(object sender, RoutedEventArgs e)
     {
         poängUte += 2;
         txbUte.Text = $"{poängUte}";
-        txbHistorik.Text += $"Bränning +2 poäng, totalt: {poängUte} \n";
+        // Vad är klockan just nu?
+        DateTime nu = DateTime.Now;
+        txbHistorik.Text = $"{nu.ToString("HH:mm:ss")}: Bränning +2 poäng, totalt: {poängUte} \n" + txbHistorik.Text;
     }
     private void KlickLyra(object sender, RoutedEventArgs e)
     {
         poängUte += 3;
         txbUte.Text = $"{poängUte}";
-        txbHistorik.Text += $"Lyra +3 poäng, totalt: {poängUte} \n";
+        // Vad är klockan just nu?
+        DateTime nu = DateTime.Now;
+        txbHistorik.Text = $"{nu.ToString("HH:mm:ss")}: Lyra +3 poäng, totalt: {poängUte} \n" + txbHistorik.Text;
     }
     private void KlickVarv(object sender, RoutedEventArgs e)
     {
         poängInne += 1;
         txbInne.Text = $"{poängInne}";
-        txbHistorik.Text += $"Varv +1 poäng, totalt: {poängInne} \n";
+        // Vad är klockan just nu?
+        DateTime nu = DateTime.Now;
+        txbHistorik.Text = $"{nu.ToString("HH:mm:ss")}: Varv +1 poäng, totalt: {poängInne} \n" + txbHistorik.Text;
+    }
+    private void KlickSpara(object sender, RoutedEventArgs e)
+    {
+        // Filnamn för att spara historiken
+        string filnamn = "Historik.txt";
+
+        // Skriv innehållet i txbHistorik till filen
+        File.WriteAllText(filnamn, txbHistorik.Text);
     }
 }
