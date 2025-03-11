@@ -1,0 +1,4 @@
+25-03-11 21:45 Session started
+----------------------------------------
+21:46:03 Document switched to: c:\Users\johnny.battah\github-classroom\prog1-wpf-JohnnyBattah\BrannbollApp\MainWindow.xaml.cs
+----------------------------------------
