@@ -1,0 +1,26 @@
+25-03-12 20:28 Session started
+----------------------------------------
+20:28:47 Document switched to: c:\Users\johnny.battah\github-classroom\prog1-wpf-JohnnyBattah\EventApp_Uppg1\MainWindow.xaml
+----------------------------------------
+20:28:50 Document switched to: c:\Users\johnny.battah\github-classroom\prog1-wpf-JohnnyBattah\EventApp_Uppg1\MainWindow.xaml.cs
+----------------------------------------
+20:29:08 Document switched to: c:\Users\johnny.battah\github-classroom\prog1-wpf-JohnnyBattah\EventApp_Uppg2\MainWindow.xaml.cs
+----------------------------------------
+20:29:20 Document switched to: c:\Users\johnny.battah\github-classroom\prog1-wpf-JohnnyBattah\EventApp_Uppg3\MainWindow.xaml.cs
+----------------------------------------
+20:29:38 Document switched to: c:\Users\johnny.battah\github-classroom\prog1-wpf-JohnnyBattah\SlumpaApp\MainWindow.xaml.cs
+----------------------------------------
+20:37:09 Document switched to: c:\Users\johnny.battah\github-classroom\prog1-wpf-JohnnyBattah\ValApp\MainWindow.xaml.cs
+----------------------------------------
+20:37:21 Document switched to: c:\Users\johnny.battah\github-classroom\prog1-wpf-JohnnyBattah\EventApp_Uppg3\MainWindow.xaml.cs
+----------------------------------------
+20:37:35 Document switched to: c:\Users\johnny.battah\github-classroom\prog1-wpf-JohnnyBattah\EventApp\MainWindow.xaml.cs
+----------------------------------------
+20:37:41 Document switched to: c:\Users\johnny.battah\github-classroom\prog1-wpf-JohnnyBattah\EpostApp\MainWindow.xaml.cs
+----------------------------------------
+20:38:10 Document switched to: c:\Users\johnny.battah\github-classroom\prog1-wpf-JohnnyBattah\BrannbollApp\MainWindow.xaml.cs
+----------------------------------------
+20:38:21 Document switched to: c:\Users\johnny.battah\github-classroom\prog1-wpf-JohnnyBattah\AreaApp\AreaApp.sln
+----------------------------------------
+20:38:26 Document switched to: c:\Users\johnny.battah\github-classroom\prog1-wpf-JohnnyBattah\AreaApp\AreaApp\MainWindow.xaml.cs
+----------------------------------------
