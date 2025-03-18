@@ -299,3 +299,15 @@
 }
 20:23:58 Document switched to: c:\Users\johnny.battah\github-classroom\prog1-wpf-JohnnyBattah\.vscode\.logs\25-03-13-16-08.txt
 ----------------------------------------
+20:24:05 Document switched to: c:\Users\johnny.battah\github-classroom\prog1-wpf-JohnnyBattah\.git\COMMIT_EDITMSG
+----------------------------------------
+
+20:24:10 000:000 > T
+20:24:11 000:001 > Tr
+20:24:11 000:002 > Trä
+20:24:11 000:003 > Trän
+20:24:12 000:004 > Träna
+20:24:16 000:000 > Träna
+20:24:57 Document switched to: c:\Users\johnny.battah\github-classroom\prog1-wpf-JohnnyBattah\.vscode\.logs\25-03-18-20-16.txt
+----------------------------------------
+20:25:01 000:000 > .
