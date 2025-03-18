@@ -1,0 +1,301 @@
+25-03-18 20:16 Session started
+----------------------------------------
+20:16:52 Document switched to: c:\Users\johnny.battah\github-classroom\prog1-wpf-JohnnyBattah\JulklappApp\JulklappApp.csproj
+----------------------------------------
+20:16:53 Document switched to: c:\Users\johnny.battah\github-classroom\prog1-wpf-JohnnyBattah\JulklappApp\MainWindow.xaml.cs
+----------------------------------------
+20:16:54 Document switched to: c:\Users\johnny.battah\github-classroom\prog1-wpf-JohnnyBattah\JulklappApp\MainWindow.xaml
+----------------------------------------
+20:16:56 Document switched to: c:\Users\johnny.battah\github-classroom\prog1-wpf-JohnnyBattah\JulklappApp\MainWindow.xaml.cs
+----------------------------------------
+20:17:08 Document switched to: c:\Users\johnny.battah\github-classroom\prog1-wpf-JohnnyBattah\JulklappApp\MainWindow.xaml.cs
+----------------------------------------
+20:22:44 Document switched to: c:\Users\johnny.battah\github-classroom\prog1-wpf-JohnnyBattah\JulklappApp\MainWindow.xaml
+----------------------------------------
+20:23:07 000:000 > <Window x:Class
+20:23:07 000:015 > =
+20:23:07 000:016 > "JulklappApp.MainWindow"
+20:23:07 000:040 > xmlns=
+20:23:07 001:010 > "http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+20:23:07 001:069 > xmlns:x
+
+20:23:07 002:011 > =
+20:23:07 002:012 > "http://schemas.microsoft.com/winfx/2006/xaml"
+20:23:07 002:058 > xmlns:d
+
+20:23:07 003:011 > =
+20:23:07 003:012 > "http://schemas.microsoft.com/expression/blend/2008"
+20:23:08 003:064 > xmlns:mc
+
+20:23:08 004:012 > =
+20:23:08 004:013 > "http://schemas.openxmlformats.org/markup
+20:23:08 004:054 > -
+20:23:08 004:055 > compatibility/2006"
+20:23:08 004:074 > xmlns:local
+
+20:23:08 005:015 > =
+20:23:08 005:016 > "clr-
+20:23:08 005:021 > namespace:JulklappApp"
+20:23:08 005:043 > mc:Ignorable
+
+20:23:08 006:016 > =
+20:23:08 006:017 > "d"
+20:23:08 006:020 > Title
+
+20:23:08 007:009 > =
+20:23:08 007:010 > "JulklappApp"
+20:23:08 007:023 > Height=
+20:23:08 008:011 > "450"
+20:23:08 008:016 > Width
+
+20:23:08 008:022 > =
+20:23:08 008:023 > "800"
+20:23:09 008:028 > SizeToContent
+
+20:23:09 009:017 > =
+20:23:09 009:018 > "WidthAndHeight"
+20:23:09 009:034 > Background
+20:23:09 009:045 > =
+20:23:09 009:046 > "#EEE">
+20:23:10 000:000 > <StackPanel Margin
+
+20:23:10 000:018 > =
+20:23:10 000:019 > "10">
+20:23:11 000:024 > <Label
+20:23:11 001:010 > Margin=
+20:23:11 001:018 > "10"
+20:23:11 001:022 > FontSize
+
+20:23:11 001:031 > =
+20:23:11 001:032 > "30"
+20:23:11 001:036 > FontWeight
+20:23:11 001:047 > =
+20:23:11 001:048 > "Bold">Julklapplistan</Label>
+20:23:13 000:000 > <StackPanel Name="limit" Orientation="Horizontal" Margin="10">
+    <Label FontWeight="Bold" FontSize="16" Margin="5">Antal julklappar:</Label>
+    <TextBox Name="txbAntalJulklappar" Margin="5" Width="100" Padding="5"></TextBox>
+    <Button Click="KlickMaxKlappar" Width="80" Padding=
+20:23:13 003:055 > "5" Margin=
+20:23:13 003:066 > "5">Ange</Button>
+20:23:13 003:083 > </StackPanel>
+20:23:14 000:000 > <StackPanel Name
+
+20:23:14 000:016 > =
+20:23:14 000:017 > "inmatning" Orientation
+20:23:14 000:040 > =
+20:23:15 000:041 > "Horizontal" HorizontalAlignment
+20:23:15 000:073 > =
+20:23:15 000:074 > "Center"
+20:23:15 000:082 > Margin
+20:23:15 000:089 > =
+20:23:15 000:090 > "10">
+    <Label FontWeight
+20:23:15 001:021 > ="Bold"
+20:23:15 001:028 > FontSize=
+20:23:15 001:038 > "16" Margin
+20:23:15 001:049 > ="5">Julklapp:
+20:23:15 001:063 > </Label>
+20:23:15 001:072 > <TextBox Name
+20:23:15 002:017 > ="txbJulklapp"
+20:23:15 002:031 > Margin=
+20:23:15 002:039 > "5" Width
+
+20:23:15 002:048 > =
+20:23:15 002:049 > "100" Padding=
+20:23:16 002:063 > "5"></TextBox>
+20:23:16 002:077 > <Label FontWeight=
+20:23:16 003:022 > "Bold"
+20:23:16 003:028 > FontSize="16">Mottagare:
+20:23:16 003:053 > </Label>
+20:23:16 003:062 > <TextBox Name=
+20:23:16 004:018 > "txbMottagare" Margin=
+20:23:16 004:040 > "5" Width="100" Padding
+20:23:16 004:063 > ="5"></TextBox>
+    <Button
+20:23:16 005:011 > Click=
+20:23:16 005:018 > "KlickLäggTill" Width
+
+20:23:16 005:039 > =
+20:23:16 005:040 > "80" Margin=
+20:23:16 005:052 > "5" Padding
+20:23:17 005:063 > ="5">Lägg till</Button>
+20:23:17 005:086 > <Button Click
+20:23:17 006:017 > ="KlickBytUt" Width
+20:23:17 006:036 > ="80"
+20:23:17 006:041 > Margin
+20:23:17 006:048 > ="5"
+20:23:17 006:052 > Padding="5">Byt
+20:23:17 006:068 > ut</Button>
+</StackPanel>
+20:23:18 000:000 > <StackPanel Name="listan"
+20:23:18 000:025 > Margin="10">
+    <Label
+20:23:18 001:010 > FontWeight="Bold" FontSize="16" Margin
+20:23:18 001:049 > ="5" Padding="5">Julklappar: </Label>
+    <ListBox Name=
+20:23:18 002:018 > "lstJulklappar" Height="120" Margin
+20:23:19 002:053 > ="5"></ListBox>
+20:23:19 002:068 > </StackPanel>
+20:23:19 000:000 > <TextBox Name
+
+20:23:19 000:013 > =
+20:23:19 000:014 > "txbStatus" FontStyle=
+20:23:19 000:036 > "Italic"
+20:23:19 000:044 > Background=
+20:23:19 000:056 > "#EFEFEF"
+20:23:19 000:065 > Margin
+20:23:19 000:072 > ="15"
+20:23:19 000:077 > Padding
+20:23:19 000:085 > =
+20:23:19 000:086 > "5"></TextBox>
+20:23:20 000:000 > public partial
+20:23:21 000:014 > class MainWindow
+20:23:21 000:031 > :
+20:23:21 000:033 > Window
+{
+20:23:21 001:001 > int maxJulklappar;
+20:23:21 002:022 > List<String> julklappar =
+20:23:21 003:029 > new List<String>();
+
+    public
+20:23:21 005:010 > MainWindow()
+20:23:21 005:023 > {
+        InitializeComponent();
+20:23:21 007:030 > // Inaktivera
+20:23:21 009:021 > gränssnittet
+20:23:21 009:034 > för att
+20:23:21 009:042 > lägga till
+20:23:21 009:053 > julklappar
+        listan.IsEnabled
+
+20:23:21 010:024 > =
+20:23:21 010:026 > false;
+20:23:21 010:033 > inmatning.IsEnabled
+
+20:23:21 011:027 > =
+20:23:21 011:029 > false;
+20:23:21 011:036 > }
+20:23:23 000:000 > private void KlickMaxKlappar(object sender, RoutedEventArgs e)
+{
+    if (int.TryParse(txbAntalJulklappar.Text, out int
+20:23:23 002:053 > antal) && antal > 0)
+20:23:23 002:074 > {
+        maxJulklappar =
+20:23:23 004:023 > antal;
+20:23:23 004:030 > lstJulklappar.ItemsSource = julklappar;
+        listan.IsEnabled = true;
+20:23:24 006:032 > inmatning.IsEnabled = true;
+20:23:24 007:035 > limit.IsEnabled = false;
+20:23:24 008:032 > }
+    else
+    {
+20:23:24 011:005 > txbStatus.Text = "Ange ett
+20:23:24 012:034 > positivt
+20:23:24 012:043 > heltal!";
+        txbJulklapp.Text
+20:23:24 013:024 > = "";
+    }
+}
+20:23:24 000:000 > private void KlickLäggTill(object sender, RoutedEventArgs e)
+{
+    if (julklappar.Count < maxJulklappar)
+    {
+        if (txbJulklapp.Text != "" && txbMottagare.Text != "")
+        {
+            string julklapp = $"{txbJulklapp.Text} till {txbMottagare.Text}";
+            julklappar.Add(julklapp);
+            lstJulklappar.Items.Refresh();
+        }
+        else
+        {
+            txbStatus.Text = "Ange både julklapp och mottagare!";
+        }
+    }
+    else
+    {
+        txbStatus.Text = "Max antal julklappar är uppnått!";
+    }
+}
+20:23:24 000:000 > private void KlickBytUt(object sender, RoutedEventArgs e)
+{
+    if (lstJulklappar.SelectedIndex >= 0 && !string.IsNullOrWhiteSpace(txbJulklapp.Text) && !string.IsNullOrWhiteSpace(txbMottagare.Text))
+    {
+        string julklapp = $"{txbJulklapp.Text} till {txbMottagare.Text}";
+        julklappar[lstJulklappar.SelectedIndex] = julklapp;
+        lstJulklappar.Items.Refresh();
+    }
+    else
+    {
+        txbStatus.Text = "Välj en julklapp och ange både julklapp och mottagare!";
+    }
+}
+20:23:25 000:000 > private void KlickLäggTill(object sender,
+20:23:25 000:041 > RoutedEventArgs e)
+{
+    if (julklappar.Count <
+20:23:25 002:026 > maxJulklappar)
+    {
+        if (txbJulklapp.Text !
+20:23:25 004:030 > = "" && txbMottagare.Text !
+20:23:25 004:057 > = "")
+        {
+            string
+20:23:25 006:018 > julklapp = $"{txbJulklapp.Text} till {txbMottagare.Text}";
+            julklappar.Add(julklapp);
+            lstJulklappar.Items.Refresh();
+20:23:25 008:042 > }
+        else
+        {
+            txbStatus.Text
+20:23:25 012:026 > = "Ange både julklapp
+20:23:25 012:048 > och mottagare!";
+        }
+20:23:25 013:009 > }
+    else
+    {
+        txbStatus.Text
+20:23:25 017:022 > = "Max antal julklappar är uppnått!";
+    }
+}
+20:23:25 000:000 > private void KlickLäggTill(object sender, RoutedEventArgs e)
+{
+    if (julklappar.Count < maxJulklappar)
+    {
+        if (txbJulklapp.Text != "" && txbMottagare.Text != "")
+        {
+            string julklapp = $"{txbJulklapp.Text} till {txbMottagare.Text}";
+            julklappar.Add(julklapp);
+            lstJulklappar.Items.Refresh();
+        }
+        else
+        {
+            txbStatus.Text = "Ange både julklapp och mottagare!";
+        }
+    }
+    else
+    {
+        txbStatus.Text = "Max antal julklappar är uppnått!";
+20:23:25 017:060 > }
+}
+20:23:26 000:000 > private void KlickBytUt(object sender, RoutedEventArgs
+20:23:26 000:054 > e)
+{
+    if (lstJulklappar.SelectedIndex >
+20:23:26 002:037 > = 0 && !string.IsNullOrWhiteSpace(txbJulklapp.Text)
+20:23:26 002:088 > && !string.IsNullOrWhiteSpace(txbMottagare.Text))
+    {
+        string julklapp
+20:23:26 004:023 > = $"{txbJulklapp.Text} till {txbMottagare.Text}";
+        julklappar[lstJulklappar.SelectedIndex] =
+20:23:26 005:049 > julklapp;
+        lstJulklappar.Items.Refresh();
+    }
+    else
+    {
+        txbStatus.Text =
+20:23:26 010:024 > "Välj en julklapp och ange
+20:23:26 010:051 > både julklapp och mottagare!";
+20:23:26 010:082 > }
+}
+20:23:58 Document switched to: c:\Users\johnny.battah\github-classroom\prog1-wpf-JohnnyBattah\.vscode\.logs\25-03-13-16-08.txt
+----------------------------------------
