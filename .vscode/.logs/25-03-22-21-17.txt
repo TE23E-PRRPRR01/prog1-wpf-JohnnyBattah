@@ -1,0 +1,6 @@
+25-03-22 21:17 Session started
+----------------------------------------
+21:17:39 Document switched to: c:\Users\johnny.battah\github-classroom\prog1-wpf-JohnnyBattah\SwishApp\MainWindow.xaml.cs
+----------------------------------------
+21:17:44 Document switched to: c:\Users\johnny.battah\github-classroom\prog1-wpf-JohnnyBattah\SwishApp\MainWindow.xaml.cs
+----------------------------------------
