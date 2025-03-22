@@ -1,0 +1,6 @@
+25-03-19 14:20 Session started
+----------------------------------------
+14:20:34 Document switched to: c:\Users\johnny.battah\github-classroom\prog1-wpf-JohnnyBattah\JulklappApp\MainWindow.xaml
+----------------------------------------
+14:27:46 Document switched to: c:\Users\johnny.battah\github-classroom\prog1-wpf-JohnnyBattah\JulklappApp\MainWindow.xaml
+----------------------------------------
