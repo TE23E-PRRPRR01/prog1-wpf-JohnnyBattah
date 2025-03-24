@@ -1,0 +1,4 @@
+25-03-24 13:35 Session started
+----------------------------------------
+13:35:42 Document switched to: c:\Users\johnny.battah\github-classroom\prog1-wpf-JohnnyBattah\EventApp\MainWindow.xaml.cs
+----------------------------------------

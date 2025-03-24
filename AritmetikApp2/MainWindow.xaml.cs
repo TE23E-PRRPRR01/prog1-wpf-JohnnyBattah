@@ -22,9 +22,12 @@ public partial class MainWindow : Window
     }
     private void KlickBeräkna(object sender, RoutedEventArgs e)
     {
+        // Läs av rutorna
         string tal1Text = txbTal1.Text.Trim();
         string tal2Text = txbTal2.Text.Trim();
         string operator1 = txbOperator.Text.Trim();
+
+
 
         if (int.TryParse(txbTal1.Text, out int tal1) && int.TryParse(txbTal2.Text, out int tal2))
         {
@@ -43,6 +46,10 @@ public partial class MainWindow : Window
             else if (operator1 == "/")
             {
                 lblResultat.Content = $"{tal1} / {tal2} = {tal1 / tal2}";
+            }
+            else
+            {
+                lblResultat.Content = "Fel: Ogiltigt operator";
             }
         }
         else
