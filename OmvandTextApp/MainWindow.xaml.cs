@@ -27,5 +27,27 @@ public partial class MainWindow : Window
         // Läs in texten från formuläret
         string text = txbInput.Text; 
         
+        // Vänd på texten
+        string omväntText = OmvändText(text);
+
+        // Skriv ut i textruta
+        txbTextruta.Text = omväntText;
+
+        // Räkna upp antal totaltecken
+        antalTecken += text.Length;
+
+        // Skriv ut totalt antal tecken
+        txbResultat.Text = $"Totalt antal tecken: {antalTecken}";
+    }
+
+    // Vänder på textens ordning med en for-loop
+    private string OmvändText(string text)
+    {
+        string omväntText = "";
+        for (int i = text.Length-1; i >= 0; i--)
+        {
+            omväntText += text[i];
+        }
+        return omväntText;
     }
 }

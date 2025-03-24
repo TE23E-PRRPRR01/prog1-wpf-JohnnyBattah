@@ -13,7 +13,7 @@
         <TextBox Name="txbInput" Margin="5" Height="50" Width="150" TextWrapping="Wrap" AcceptsReturn="True"></TextBox>
         <Button Click="KlickVänd" Height="20" Width="150">Kör</Button>
         <Label Margin="5">Sparad text</Label>
-        <TextBox IsReadOnly="True" Margin="5" Width="150" Height="100" TextWrapping="Wrap"></TextBox>
-        <TextBox Margin="5" IsReadOnly="True" Width="150" FontStyle="Italic"></TextBox>
+        <TextBox Name="txbTextruta" IsReadOnly="True" Margin="5" Width="150" Height="100" TextWrapping="Wrap"></TextBox>
+        <TextBox Name="txbResultat" Margin="5" IsReadOnly="True" Width="150" FontStyle="Italic"></TextBox>
     </StackPanel>
 </Window>
